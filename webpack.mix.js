@@ -6,6 +6,7 @@ mix.js('src/js/app.js', 'public/js')
         server: './public',
         proxy: null,
         files: [
-            './public/index.html'
+            './public/index.html',
+            './src'
         ]
     });
