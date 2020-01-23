@@ -90,21 +90,6 @@
 /*!***********************!*\
   !*** ./src/js/app.js ***!
   \***********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bootstrap */ "./src/js/bootstrap.js");
-/* harmony import */ var _bootstrap__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_bootstrap__WEBPACK_IMPORTED_MODULE_0__);
-
-
-/***/ }),
-
-/***/ "./src/js/bootstrap.js":
-/*!*****************************!*\
-  !*** ./src/js/bootstrap.js ***!
-  \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -130,8 +115,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/piotrzdziarski/projects/laravel-mix-template/src/js/app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! /home/piotrzdziarski/projects/laravel-mix-template/src/scss/app.scss */"./src/scss/app.scss");
+__webpack_require__(/*! /home/piotrzdziarski/projects/fireads/trading-landing-website-ania/src/js/app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! /home/piotrzdziarski/projects/fireads/trading-landing-website-ania/src/scss/app.scss */"./src/scss/app.scss");
 
 
 /***/ })

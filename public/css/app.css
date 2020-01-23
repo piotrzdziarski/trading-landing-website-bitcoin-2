@@ -1,20 +1,4 @@
 body {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-          align-items: center;
-  height: 100vh;
-  width: 100vw;
-}
-
-img {
-  width: 100%;
-  max-width: 500px;
-}
-
-body {
   margin: 0;
   padding: 0;
 }

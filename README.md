@@ -1,8 +1,3 @@
-# Template for simple pages
+# Landing page - Trading with Ania. 
 
 Uses Laravel Mix.
-
-Prepared: 
-- scss
-- js
-- browser-sync
