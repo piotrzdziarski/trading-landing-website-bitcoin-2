@@ -7,9 +7,110 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Laravel Mix Template</title>
     <link href="css/app.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500,800&display=swap&subset=latin-ext"
+          rel="stylesheet">
 </head>
 <body>
+<main>
+    <section id="claim">
+        <div class="container flex-centered flex-column">
+            <div class="flex-centered flex-column">
+                <h1 id="h1">
+                    Lorem ipsum is <span class="text-primary">simply</span> dummy text
+                </h1>
+                <h2 id="h2">
+                    of the <span class="text-primary">printing</span> and typesetting industry
+                </h2>
+            </div>
 
+            <div id="register">
+                <div id="video-wrapper">
+                    <div id="video-overlay" class="flex-centered flex-column">
+                        <h3 id="video-overlay-text">Stuknij, aby obejrzeć i poznać sekret!</h3>
+                        <div class="svg-wrapper">
+                            <svg viewBox="-21 -117 682.66672 682"
+                                 xmlns="http://www.w3.org/2000/svg" class="svg">
+                                <path
+                                    fill="#10b9ff"
+                                    d="m626.8125 64.035156c-7.375-27.417968-28.992188-49.03125-56.40625-56.414062-50.082031-13.703125-250.414062-13.703125-250.414062-13.703125s-200.324219 0-250.40625 13.183593c-26.886719 7.375-49.03125 29.519532-56.40625 56.933594-13.179688 50.078125-13.179688 153.933594-13.179688 153.933594s0 104.378906 13.179688 153.933594c7.382812 27.414062 28.992187 49.027344 56.410156 56.410156 50.605468 13.707031 250.410156 13.707031 250.410156 13.707031s200.324219 0 250.40625-13.183593c27.417969-7.378907 49.03125-28.992188 56.414062-56.40625 13.175782-50.082032 13.175782-153.933594 13.175782-153.933594s.527344-104.382813-13.183594-154.460938zm-370.601562 249.878906v-191.890624l166.585937 95.945312zm0 0" />
+                            </svg>
+                            <div class="whiter"></div>
+                        </div>
+                    </div>
+                    <video id="video" controls>
+                        <source
+                            src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
+                    </video>
+                </div>
+                <div class="gap"></div>
+                <form action="#" class="form">
+                    <h3 class="header flex-centered flex-column">
+                        <span class="header-big">Zarejestruj się teraz</span>
+                        <span class="header-small">i zmień swoje życie na lepsze</span>
+                    </h3>
+                    <div class="form-inner">
+                        <div class="flex-centered">
+                            <div class="input-wrapper">
+                                <input id="register-name" class="input" type="text" placeholder="Imię">
+                            </div>
+                            <div class="divider-input"></div>
+                            <div class="input-wrapper">
+                                <input id="register-surname" class="input" type="text" placeholder="Nazwisko">
+                            </div>
+                        </div>
+
+                        <div class="input-wrapper w-100-i">
+                            <input id="register-email" class="input" type="email" placeholder="Adres e-mail">
+                        </div>
+
+                        <div class="flex-centered">
+                            <div class="input-wrapper">
+                                <input id="register-phone" class="input" type="text" placeholder="Numer telefonu">
+                            </div>
+                            <div class="divider-input"></div>
+                            <div class="input-wrapper">
+                                <input id="register-password" class="input" type="password" placeholder="Hasło">
+                            </div>
+                        </div>
+
+                        <div class="checkbox-wrapper checkbox-wrapper-first flex-started">
+                            <label class="checkbox-label flex-started" for="register-commercial-checkbox">
+                                <input id="register-commercial-checkbox" class="checkbox" type="checkbox">
+                                <span class="checkbox-mock flex-centered">
+                                    <span class="check"></span>
+                                </span>
+                                <span class="checkbox-gap"></span>
+                                <span class="checkbox-text">
+                                    Wyrażam zgodę na przechowywanie mojego adresu e-mail do celów
+                                    przyszłego przekazywania informacji oraz ofert handlowych dotyczących
+                                    oprogramowania handlowego oraz platform handlowych.
+                                </span>
+                            </label>
+                        </div>
+
+                        <div class="checkbox-wrapper checkbox-wrapper-last flex-started">
+                            <label class="checkbox-label flex-started" for="register-policy-checkbox">
+                                <input id="register-policy-checkbox" class="checkbox" type="checkbox">
+                                <span class="checkbox-mock flex-centered">
+                                    <span class="check"></span>
+                                </span>
+                                <span class="checkbox-gap"></span>
+                                <span class="checkbox-text">
+                                    Akceptuję <a href="#" class="checkbox-a">warunki</a>
+                                    oraz <a href="#" class="checkbox-a">politykę prywatności</a>.
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button class="submit" type="submit">
+                        Rozpocznij teraz!
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
 <script src="js/app.js"></script>
 </body>
 </html>

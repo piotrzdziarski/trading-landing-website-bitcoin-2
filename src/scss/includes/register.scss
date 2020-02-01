@@ -1,0 +1,76 @@
+#register {
+  @import "register-video";
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 60px;
+  padding: 8px;
+  max-width: 600px;
+  background: #fff;
+
+  @media (min-width: 768px) {
+    margin-top: 75px;
+  }
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+    margin-top: 86px;
+    max-width: 1195px;
+  }
+
+  @media (min-width: 1600px) {
+    max-width: 1300px;
+  }
+
+  .gap {
+    @media (min-width: 1200px) {
+      width: 10px;
+    }
+  }
+
+  .form {
+    border: 1px solid #e7e7e7;
+  }
+
+  .form-inner {
+    padding: 0 20px;
+  }
+
+  .header {
+    padding: 20px;
+    color: #fff;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+
+    @media (min-width: 1200px) {
+      padding: 5px 20px 12px 20px;
+    }
+
+    @media (min-width: 1600px) {
+      padding: 15px 20px 20px 20px;
+    }
+  }
+
+  .header-big {
+    color: #000;
+    font-size: 30px;
+
+    @media (min-width: 576px) {
+      font-size: 40px;
+    }
+  }
+
+  .header-small {
+    margin-top: -1px;
+    color: $primary;
+    font-size: 18px;
+    letter-spacing: 2px;
+
+    @media (min-width: 576px) {
+      font-size: 20px;
+    }
+  }
+}

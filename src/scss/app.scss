@@ -1,7 +1,19 @@
-body {
-  margin: 0;
-  padding: 0;
-}
+@import "variables";
+@import "global/buttons";
+@import "global/flex";
+@import "global/headers";
+@import "global/positions";
+@import "global/text";
+@import "global/opacity";
+@import "global/overflows";
+@import "global/widths";
+@import "components/container";
+@import "components/form";
+@import "components/modal";
+@import "includes/body";
+@import "includes/claim";
+@import "includes/register";
+
 
 * {
   box-sizing: border-box;

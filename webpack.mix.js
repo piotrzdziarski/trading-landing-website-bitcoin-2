@@ -9,4 +9,7 @@ mix.js('src/js/app.js', 'public/js')
             './public/index.html',
             './src'
         ]
+    })
+    .options({
+        processCssUrls: false
     });
