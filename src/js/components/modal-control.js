@@ -25,8 +25,7 @@ document.addEventListener('mouseleave', () => {
     }
 
     wasExitPopupShown = true;
-    // TODO: ENABLE IT WHEN MODAL DONE
-    // openModal('popup-exit');
+    openModal('popup-exit');
 });
 
 function openModal(modalId) {

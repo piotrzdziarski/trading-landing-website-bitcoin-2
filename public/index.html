@@ -11,6 +11,85 @@
           rel="stylesheet">
 </head>
 <body>
+<div id="popup-exit" class="component-modal">
+    <div class="container">
+        <div onclick="closeModal('popup-exit')" class="modal-close-wrapper flex-centered">
+            <div class="close"></div>
+        </div>
+        <form action="#" class="form">
+            <div class="header-outer flex-centered flex-column">
+                <div class="header-inner">
+                    <div class="title">Zarejestruj się teraz</div>
+                    <div class="subtitle">I zmień swoje życie na lepsze!</div>
+                    <div class="text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy
+                        text ever since the 1500s, when an unknown printer took
+                        a galley of type and scrambled it to make a type specimen book
+                    </div>
+                </div>
+            </div>
+            <div class="form-inner">
+                <div class="flex-centered">
+                    <div class="input-wrapper">
+                        <input id="modal-name" class="input" type="text" placeholder="Imię">
+                    </div>
+                    <div class="divider-input"></div>
+                    <div class="input-wrapper">
+                        <input id="modal-surname" class="input" type="text" placeholder="Nazwisko">
+                    </div>
+                </div>
+
+                <div class="input-wrapper w-100-i">
+                    <input id="modal-email" class="input" type="email" placeholder="Adres e-mail">
+                </div>
+
+                <div class="flex-centered">
+                    <div class="input-wrapper">
+                        <input id="modal-phone" class="input" type="text" placeholder="Numer telefonu">
+                    </div>
+                    <div class="divider-input"></div>
+                    <div class="input-wrapper">
+                        <input id="modal-password" class="input" type="password" placeholder="Hasło">
+                    </div>
+                </div>
+
+                <div class="checkbox-wrapper checkbox-wrapper-first flex-started">
+                    <label class="checkbox-label flex-started" for="modal-commercial-checkbox">
+                        <input id="modal-commercial-checkbox" class="checkbox" type="checkbox">
+                        <span class="checkbox-mock flex-centered">
+                                    <span class="check"></span>
+                                </span>
+                        <span class="checkbox-gap"></span>
+                        <span class="checkbox-text">
+                            Wyrażam zgodę na przechowywanie mojego adresu e-mail do celów
+                            przyszłego przekazywania informacji oraz ofert handlowych dotyczących
+                            oprogramowania handlowego oraz platform handlowych.
+                        </span>
+                    </label>
+                </div>
+
+                <div class="checkbox-wrapper checkbox-wrapper-last flex-started">
+                    <label class="checkbox-label flex-started" for="modal-policy-checkbox">
+                        <input id="modal-policy-checkbox" class="checkbox" type="checkbox">
+                        <span class="checkbox-mock flex-centered">
+                                    <span class="check"></span>
+                                </span>
+                        <span class="checkbox-gap"></span>
+                        <span class="checkbox-text">
+                                    Akceptuję <a href="#" class="checkbox-a">warunki</a>
+                                    oraz <a href="#" class="checkbox-a">politykę prywatności</a>.
+                                </span>
+                    </label>
+                </div>
+            </div>
+
+            <button class="submit" type="submit">
+                Rozpocznij teraz!
+            </button>
+        </form>
+    </div>
+</div>
 <main>
     <section id="claim">
         <div class="container flex-centered flex-column">
@@ -144,6 +223,111 @@
             </div>
             <div class="gap"></div>
             <img class="img" src="img/about.jpg" alt="Working SVG">
+        </div>
+    </section>
+    <section class="surnames">
+        <div class="container">
+            <h3 class="h3">Sławne nazwiska w świecie kryptowalut</h3>
+            <h4 class="h4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h4>
+            <div class="md-row">
+                <article class="article flex-centered">
+                    <div class="img-wrapper">
+                        <img src="img/bill-gates.jpg" class="img" alt="Bill Gates Round JPG">
+                    </div>
+                    <div class="gap-article"></div>
+                    <div class="block-text">
+                        <h5 class="article-header">Bill Gates</h5>
+                        <h6 class="article-subheader">założyciel Microsoftu</h6>
+                        <p class="p">
+                            Lorem Ipsum is simply dummy
+                            text of the printing and typesetting
+                            industry.
+                        </p>
+                    </div>
+                </article>
+                <div class="gap-row"></div>
+                <article class="article flex-centered">
+                    <div class="img-wrapper">
+                        <img src="img/kim-dotcom.jpg" class="img" alt="Kim Dotcom Round JPG">
+                    </div>
+                    <div class="gap-article"></div>
+                    <div class="block-text">
+                        <h5 class="article-header">Kim Dotcom</h5>
+                        <h6 class="article-subheader">Prezes zarządu spółki MegaUpload</h6>
+                        <p class="p">
+                            Lorem Ipsum is simply dummy
+                            text of the printing and typesetting
+                            industry.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="md-row">
+                <article class="article flex-centered">
+                    <div class="img-wrapper">
+                        <img src="img/eric-schmidt.jpg" class="img" alt="Eric Schmidt Round JPG">
+                    </div>
+                    <div class="gap-article"></div>
+                    <div class="block-text">
+                        <h5 class="article-header">Eric Schmidt</h5>
+                        <h6 class="article-subheader">Prezes zarządu spółki Google</h6>
+                        <p class="p">
+                            Lorem Ipsum is simply dummy
+                            text of the printing and typesetting
+                            industry.
+                        </p>
+                    </div>
+                </article>
+                <div class="gap-row"></div>
+                <article class="article flex-centered">
+                    <div class="img-wrapper">
+                        <img src="img/mike-novogratz.jpg" class="img" alt="Mike Novogratz Round JPG">
+                    </div>
+                    <div class="gap-article"></div>
+                    <div class="block-text">
+                        <h5 class="article-header">Mike Novogratz</h5>
+                        <h6 class="article-subheader">zarządca funduszami hedgingowymi, Galaxy Digital Assets</h6>
+                        <p class="p">
+                            Lorem Ipsum is simply dummy
+                            text of the printing and typesetting
+                            industry.
+                        </p>
+                    </div>
+                </article>
+            </div>
+            <div class="md-row">
+                <article class="article flex-centered">
+                    <div class="img-wrapper">
+                        <img src="img/ben-bernanke.jpg" class="img" alt="Ben Bernanke Round JPG">
+                    </div>
+                    <div class="gap-article"></div>
+                    <div class="block-text">
+                        <h5 class="article-header">Ben Bernanke</h5>
+                        <h6 class="article-subheader">szef banku rezerwy federalnej</h6>
+                        <p class="p">
+                            Lorem Ipsum is simply dummy
+                            text of the printing and typesetting
+                            industry.
+                        </p>
+                    </div>
+                </article>
+                <div class="gap-row"></div>
+                <article class="article flex-centered">
+                    <div class="img-wrapper">
+                        <img src="img/peter-thiel.jpg" class="img" alt="Peter Thiel Round JPG">
+                    </div>
+                    <div class="gap-article"></div>
+                    <div class="block-text">
+                        <h5 class="article-header">Peter Thiel</h5>
+                        <h6 class="article-subheader">współzałożyciel serwisu PayPal</h6>
+                        <p class="p">
+                            Lorem Ipsum is simply dummy
+                            text of the printing and typesetting
+                            industry.
+                        </p>
+                    </div>
+                </article>
+            </div>
         </div>
     </section>
 </main>
